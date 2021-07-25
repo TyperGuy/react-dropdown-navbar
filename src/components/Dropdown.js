@@ -15,11 +15,11 @@ function Dropdown() {
 
           return(
               <li key={index}>
-                <link className={item.cName} 
+                <Link className={item.cName} 
                 to={item.path} 
-                onclick={()=>setClick(false)}>
+                onClick={()=>setClick(false)}>
                   {item.title}
-                </link>
+                </Link>
               </li>
           )
         })}

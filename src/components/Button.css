@@ -1,5 +1,5 @@
 :root{
-  --primary:#6558ff;
+  --primary:#a318ff;
 }
 
 .btn{
@@ -16,7 +16,7 @@
 .btn:hover{
   padding: 7px 19px;
   transition: all 0.3s ease-out;
-  background-color:#65588f;
+  background-color:#6915a0;
   color: #000;
   border-radius: 4px;
 }
